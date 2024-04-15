@@ -6,6 +6,7 @@ author "Project Sloth & OK1ez"
 version '2.1.7'
 
 lua54 'yes'
+ox_lib 'locale' -- v3.8.0 or above
 
 ui_page 'html/index.html'
 -- ui_page 'http://localhost:5173/' --for dev
@@ -29,4 +30,3 @@ files {
   'locales/*.json',
 }
 
-ox_lib 'locale' -- v3.8.0 or above
