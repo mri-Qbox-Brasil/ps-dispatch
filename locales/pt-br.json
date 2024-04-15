@@ -17,8 +17,8 @@
   "alerts_refreshed": "Alertas Atualizados",
   "enabled": "Ativado",
   "disabled": "Desativado",
-  "muted": "Silenciado",
-  "unmuted": "Não silenciado",
+  "muted": " Silenciado",
+  "unmuted": " Ativados",
   "waypoint_set": "Ponto de referência definido.",
 
   "caller_local": "Local",
