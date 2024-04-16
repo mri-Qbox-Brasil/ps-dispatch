@@ -33,7 +33,7 @@ Config.PhoneItems = { -- Add the entire list of your phone items.
 }
 
 -- Locations for the Hunting Zones and No Dispatch Zones( Label: Name of Blip // Radius: Radius of the Alert and Blip)
-Config.EnableHuntingBlip = true
+Config.EnableHuntingBlip = false
 
 Config.Locations = {
     ["HuntingZones"] = {

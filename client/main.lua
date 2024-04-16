@@ -232,14 +232,14 @@ end
 
 -- Keybind
 local RespondToDispatch = lib.addKeybind({
-    name = 'RespondToDispatch',
+    name = 'mri_QRespondToDispatch',
     description = 'Set waypoint to last call location',
     defaultKey = Config.RespondKeybind,
     onPressed = setWaypoint,
 })
 
 local OpenDispatchMenu = lib.addKeybind({
-    name = 'OpenDispatchMenu',
+    name = 'mri_QOpenDispatchMenu',
     description = 'Open Dispatch Menu',
     defaultKey = Config.OpenDispatchMenu,
     onPressed = openMenu,
