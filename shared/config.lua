@@ -4,7 +4,7 @@ Config.ShortCalls = false -- Dispatch notifications are sent containing only the
 Config.Debug = false -- Enables debug and send alerts when leo break the law.
 
 Config.RespondKeybind = 'E'
-Config.OpenDispatchMenu = 'F3'
+Config.OpenDispatchMenu = 'F2'
 Config.AlertTime = 5     -- Specify the duration for the alert to appear on the screen. The default time is 5 seconds for all alerts. To set a different duration for specific alerts, change the value in `alertTime = nil` found in the alerts.lua file.
 
 Config.MaxCallList = 25 -- maximum dispatch calls in dispatch list
