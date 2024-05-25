@@ -19,7 +19,7 @@ Config.DefaultAlerts = {
     Speeding = true,
     Shooting = true,
     Autotheft = true,
-    Melee = true,
+    Melee = false,
     PlayerDowned = true,
     Explosion = true
 }
