@@ -245,6 +245,26 @@ local function FleecaBankRobbery(camId)
 end
 exports('FleecaBankRobbery', FleecaBankRobbery)
 
+local function DrugDealing()
+    local coords = GetEntityCoords(cache.ped)
+
+    local dispatchData = {
+        message = locale('DrugDealing'),
+        codeName = 'drugdealing',
+        code = '10-90',
+        icon = 'fa-solid fa-joint',  
+        priority = 2,
+        coords = coords,
+        gender = GetPlayerGender(),
+        street = GetStreetAndZone(coords),
+        alertTime = nil,
+        jobs = { 'leo' }
+    }
+
+    TriggerServerEvent('ps-dispatch:server:notify', dispatchData)
+end
+exports('DrugDealing', DrugDealing)
+
 local function PaletoBankRobbery(camId)
     local coords = GetEntityCoords(cache.ped)
 
