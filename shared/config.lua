@@ -29,7 +29,8 @@ Config.MaxOffset = 120
 
 Config.PhoneRequired = true -- Set true if only can use 911/311 command when got a phone on inventory.
 Config.PhoneItems = { -- Add the entire list of your phone items.
-    "phone",
+    "phone_black", "phone_blue", "phone_green", "phone_orange",
+    "phone_pink", "phone_purple", "phone_red", "phone_yellow",
 }
 
 -- Locations for the Hunting Zones and No Dispatch Zones( Label: Name of Blip // Radius: Radius of the Alert and Blip)
